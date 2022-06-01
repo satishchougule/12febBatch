@@ -65,6 +65,8 @@ public class BaseClass
     hp.logout();
     Thread.sleep(3000);
     log.info("logout");
+    
+    System.out.println("end of program");
 	
 	}
 	@AfterMethod
